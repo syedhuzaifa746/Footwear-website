@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+#carouselExampleDark{
+    max-height: 600px; 
+}
+#carouselExampleDark img {
+    max-height: 600px;  
+} 
+
+.partners_flex{
+    min-height: 200px;
+}
+.brand img{
+    height: 100px;
+}
+.footer_detail{
+    min-height: 220px;
+    margin-bottom: 60px;
+}
+.fitem{
+    width: 220px;
+    height: 150px;
+}
+
+a img{
+    height: 30px;
+    width: 30px;
+}
+a img:hover{
+    transform: scale(1.5);
+}
+.copyright{
+    background-color: darkgray;
+}
+
+ul li {
+    
+    list-style-type: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+ul li a:hover{
+    transform: scale(1);
+    color: blue;
+    text-decoration: underline;
+}
+
+.navbar{
+    background-color: rgb(208, 213, 216);
+}
+.image_center{
+    /* display: block;
+    margin: 0 auto; */
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center; */
+    text-align: center;
+}
+/* .image_box{
+    text-align: center;
+} */
+
+#image{
+    text-align: center;
+}
+
+#hiwi{
+width: 1000px;
+height: 350px;
+}
+.card_img{
+height: 400px;
+position: relative;
+}
+.absol{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: beige;
+    padding: 10px;
+    background-color: rgb(83, 83, 83);
+    border-radius: 50px;
+}
+.abso2{
+    position: absolute;
+    top: 30%;
+    left: 33%;
+    color: white;
+    font-weight: bold;
+}
+.absol:hover{
+    background-color: black;
+    color: wheat;
+}
+.posi{
+   
+}
